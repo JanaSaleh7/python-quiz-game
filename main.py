@@ -44,3 +44,4 @@ for i in range(len(questions)):
         print(f"Wrong! The correct answer is: {questions[i]['answer']}\n")
 
 print(f"Your final score is {score} out of {len(questions)}.")
+print(f"Percentage: {(score / len(questions)) * 100:.2f}%")
